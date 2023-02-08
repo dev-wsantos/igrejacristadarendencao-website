@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "OpenSans-Regular";
+}
+
+
+/* Classes auxiliares */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear {
+    clear:both;
+}
+header {
+    padding: 8px 0;
+    background-color: #134f84;
+    height: 115px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+nav.menu-desktop {
+    float:right
+}
+nav.menu-desktop ul {
+    position: relative;
+    top: 40px;
+}
+
+nav.menu-desktop li {
+    padding: 0 10px;
+    display: inline-block;
+}
+nav.menu-desktop a {
+    text-decoration: none;
+    color: white;
+}
