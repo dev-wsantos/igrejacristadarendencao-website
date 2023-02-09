@@ -6,3 +6,7 @@
     font-family: "OpenSans-Light";
     src: url('../fonts/OpenSans/OpenSans-Light.ttf');
 }
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url('../fonts/OpenSans/OpenSans-LightItalic.ttf');
+}

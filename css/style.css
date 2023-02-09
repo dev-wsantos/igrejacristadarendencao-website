@@ -5,6 +5,9 @@
     font-family: "OpenSans-Regular";
 }
 
+html, body {
+    height: 100%;
+}
 
 /* Classes auxiliares */
 
@@ -17,29 +20,107 @@
     clear:both;
 }
 header {
+    width: 100%;
     padding: 8px 0;
-    background-color: #134f84;
-    height: 115px;
+    background-color: white;
+    height: 80px;
 }
 
 .logo img {
     width: 200px;
     height: auto;
     float: left;
+    margin-top: -25px;
 }
 nav.menu-desktop {
     float:right
 }
 nav.menu-desktop ul {
     position: relative;
-    top: 40px;
+    top: 24px;
 }
 
 nav.menu-desktop li {
     padding: 0 10px;
     display: inline-block;
+    
 }
 nav.menu-desktop a {
     text-decoration: none;
+    color: #333;
+    opacity: 0.8;
+}
+
+/* section main-bg */
+section.main-bg {
+    position: relative;
+    width: 100%;
+    padding: 232px 0;
+    background-image: url('../img/banner-icr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+}
+
+section.main-bg > .container {
+    position: relative;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+}
+
+section.main.bg:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+section.main-bg q {
+	width: 100%;
+    padding: 10px;
+    display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 1.7em;
+	font-family: "OpenSans-LightItalic";
+	position: relative;
+	top: -70px;
+}
+section.main-bg p {
+    width: 100%;
+    padding: 10px;
     color: white;
+    text-align: center;
+    font-family: "OpenSans-LightItalic";
+    font-size: 1.5em;
+    position: relative;
+    top: -50px;
+    float: right;
+}
+.nossa-historia {
+    display: flex;
+    background-image: url('../img/4.png');
+    background-repeat: no-repeat;
+    background-position: -22% 115%;
+    height: 900px;
+    opacity: 0.8;
+}
+
+.conteudo-historia {
+    padding: 50px;
+    width:50%;
+}
+
+.conteudo-historia h2 {
+    padding: 25px 0;
+}
+.conteudo-historia p {
+    text-align: justify;
 }
