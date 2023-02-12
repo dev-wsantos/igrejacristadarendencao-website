@@ -19,6 +19,11 @@ html, body {
 .clear {
     clear:both;
 }
+
+.identar {
+    text-indent: 5ch;
+}
+
 header {
     width: 100%;
     padding: 8px 0;
@@ -120,7 +125,59 @@ section.main-bg p {
 
 .conteudo-historia h2 {
     padding: 25px 0;
+    font-family: "OpenSans-Light";
+    font-weight: normal;
+    font-size: 1.9em;
 }
+
 .conteudo-historia p {
     text-align: justify;
 }
+
+section.declaracao-fe {
+    padding: 30px 0;
+    text-align: center;
+}
+
+section.declaracao-fe h2 {
+    font-family: "OpenSans-Light";
+    font-weight: normal;
+    font-size: 1.9em;
+    padding:35px 0;
+}
+
+.icones-documentos {
+    padding: 15px;
+}
+
+.box-icone-single {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    padding: 25px 0;
+}
+.box-icone-single i {
+    font-size: 1.2em;
+    color:#245c8d;
+    position: relative;
+    top: 25px;
+}
+
+.box-icone-single p {
+    text-align: justify;
+    padding: 60px;
+}
+
+.box-icone-single button {
+    width: 73%;
+    padding: 10px;
+    background-color: #245c8d;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: "OpenSans-Bold";
+    cursor: pointer;
+    border: none;
+
+
+}    

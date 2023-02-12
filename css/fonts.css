@@ -10,3 +10,8 @@
     font-family: "OpenSans-LightItalic";
     src: url('../fonts/OpenSans/OpenSans-LightItalic.ttf');
 }
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+}
