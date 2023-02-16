@@ -83,6 +83,14 @@ section.main-bg > .container {
     top: 0;
 }
 
+.overlay-2 {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(185, 180, 180, 0.1);
+    left: 0;
+}
+
 section.main.bg:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -144,6 +152,7 @@ section.declaracao-fe h2 {
     font-weight: normal;
     font-size: 1.9em;
     padding:35px 0;
+    opacity: 0.8;
 }
 
 .icones-documentos {
@@ -157,7 +166,7 @@ section.declaracao-fe h2 {
     padding: 25px 0;
 }
 .box-icone-single i {
-    font-size: 1.2em;
+    font-size: 2.2em;
     color:#245c8d;
     position: relative;
     top: 25px;
@@ -166,6 +175,10 @@ section.declaracao-fe h2 {
 .box-icone-single p {
     text-align: justify;
     padding: 60px;
+}
+.box-icone-single a {
+    text-decoration: none;
+    color:#245c8d;
 }
 
 .box-icone-single button {
@@ -178,6 +191,82 @@ section.declaracao-fe h2 {
     font-family: "OpenSans-Bold";
     cursor: pointer;
     border: none;
-
-
 }    
+
+section.departamentos {
+    padding: 30px 0;
+    background-color: #ffeded;
+
+}
+
+section.departamentos > .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.departamento-container {
+    width: 50%;
+}
+.sobre-container {
+    width: 50%;
+}
+.departamento-container h2, .sobre-container h2 {
+    font-family: "OpenSans-Light";
+    opacity: 0.8;
+}
+
+.avatar-box {
+    margin-top: 25px;
+}
+
+.img-avatar {
+    padding: 30px 0;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-image: url('../img/img-avatar.png');
+    position: relative;
+
+    left: 20px;
+}
+.descricao-avatar {
+    width: calc(100% - 100px);
+    display: inline-block;
+    padding: 0 25px;
+    position:relative;
+    top: -20px;
+}
+.descricao-avatar h3 {
+    font-family: "OpenSans-Light";
+    margin-left: 21px;
+}
+.descricao-avatar p {
+    font-family: "OpenSans-LightItalic";
+    font-size:0.98em;
+    text-align: right;
+    padding-top: 8px;
+}
+
+@media screen and (max-width: 768px){
+    .box-icone-single {
+        width: 100%;
+    }
+    section.main-bg q {
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .departamento-container {
+        width: 100%;
+    }
+    .sobre-container {
+        width: 100%;
+    }
+    .nossa-historia {
+        width: 100%;
+    }
+    .conteudo-historia {
+        width: 100%;
+    }
+}
